@@ -1,4 +1,4 @@
-apiVersion: apps/v2
+apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
   name: reddit-hpa
@@ -10,7 +10,7 @@ spec:
   minReplicas: 2
   maxReplicas: 10
   metrics:
-    - type: Resources
+    - type: Resource
       resource:
         name: memory
         target:

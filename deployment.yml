@@ -7,10 +7,10 @@ metadata:
     managed: vikas
 spec:
   replicas: 2
-  selectors:
+  selector:
     matchLabels:
       app: reddit-pod
-  strategies:
+  strategy:
     type: RollingUpdate
     rollingUpdate:
       maxSurge: 1

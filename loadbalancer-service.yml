@@ -4,7 +4,7 @@ metadata:
   name: reddit-service
 spec:
   type: LoadBalancer
-  selectors:
+  selector:
     app: reddit-pod
   ports:
     - protocol: TCP

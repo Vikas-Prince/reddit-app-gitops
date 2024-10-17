@@ -7,7 +7,7 @@ metadata:
     managed: vikas
 spec:
   replicas: 2
-  selectors:
+  selector:
     matchLabels:
       app: reddit-pod
   strategy:

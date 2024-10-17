@@ -10,7 +10,7 @@ spec:
   selectors:
     matchLabels:
       app: reddit-pod
-  strategies:
+  strategy:
     type: RollingUpdate
     rollingUpdate:
       maxSurge: 1

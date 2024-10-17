@@ -24,7 +24,9 @@ Before you begin, ensure you have the following:
 
 ### 1. Configure AWS EKS
 
-Follow AWS documentation to create and configure your EKS cluster if you haven’t done so already.
+If you want to configure an EKS cluster via AWS CLI, I have already created a detailed README file for that in my other repository. Please refer to it here: [EKS Configuration Guide](https://github.com/Vikas-Prince/MicroservicesAppDeployment/blob/main/infraguide.md). 
+
+In that file, you'll find instructions on creating a service account; however, you only need to create the EKS cluster along with worker nodes—there's no need to create a service account separately.
 
 ### 2. Steps to install ArgoCD
 
